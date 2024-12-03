@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "method": "^2.0.0",
+    "method-override": "^3.0.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^8.8.3",
+    "mongoose-sequence": "^6.0.1",
+    "nodemon": "^3.1.7",
+    "sequelize": "^6.37.5"
+  },
+  "name": "tourapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
