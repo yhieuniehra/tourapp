@@ -3,5 +3,4 @@
   publish = "public"       # Thư mục chứa các tệp tĩnh (HTML, CSS, JS)
   command = "npm run build" # Lệnh xây dựng ứng dụng, nếu cần
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+publish = ".next"
