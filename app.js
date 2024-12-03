@@ -8,7 +8,7 @@ import session from 'express-session';
 
 
 const app = express();
-const port = 3000; 
+
 
 // Ket noi mongodb
 connectdb();
@@ -75,6 +75,7 @@ app.post('/login', (req, res) => {
  app.use("/trips", tripRouter);
 
  // Cong chay
-app.listen(port, () =>{
-    console.log("server started!!");
+ const port = process.env.PORT || 3000;
+ app.listen(port, () => {
+   console.log(`Server is running on port ${port}`);
  });
