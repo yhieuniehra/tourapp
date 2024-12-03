@@ -1,6 +1,0 @@
-[build]
-  functions = "functions"  # Thư mục chứa các hàm serverless (functions)
-  publish = "public"       # Thư mục chứa các tệp tĩnh (HTML, CSS, JS)
-  command = "npm run build" # Lệnh xây dựng ứng dụng, nếu cần
-
-publish = ".next"
