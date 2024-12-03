@@ -11,17 +11,16 @@
     "mongoose": "^8.8.3",
     "mongoose-sequence": "^6.0.1",
     "nodemon": "^3.1.7",
-    "sequelize": "^6.37.5"
+    "sequelize": "^6.37.5",
+    "serverless-http": "^3.2.0"
   },
   "name": "tourapi",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
